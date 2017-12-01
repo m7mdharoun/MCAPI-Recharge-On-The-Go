@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  fitbit-refuel-svc:
+    build:
+      context: ./
+    environment:
+      - api_key_path
+      - api_key_alias
+      - api_key_id
+      - api_key_password
+      - proxy_key
+      - api_google_maps_key
+      - api_google_staticmaps_key
