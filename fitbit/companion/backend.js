@@ -1,7 +1,7 @@
 //back end server
 export function Backend(){
   this.AccessKey = 'A0C4F6B7-8305-40A3-A74D-71FD99A2836E';
-  this.BaseUrl = 'https://fitbit-drive-week.herokuapp.com';
+  this.BaseUrl = '';
 }
 
 Backend.prototype.getNearbyMerchants = function(ind,lat, lon) {
